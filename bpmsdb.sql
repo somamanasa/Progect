@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 10, 2024 at 08:59 AM
--- Server version: 10.4.32-MariaDB
--- PHP Version: 8.2.12
+-- Generation Time: Sep 05, 2024 at 01:48 PM
+-- Server version: 10.4.28-MariaDB
+-- PHP Version: 8.2.4
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `bpms`
+-- Database: `bpmsdb`
 --
 
 -- --------------------------------------------------------
@@ -189,7 +189,7 @@ CREATE TABLE `tbluser` (
 --
 
 INSERT INTO `tbluser` (`ID`, `FirstName`, `LastName`, `MobileNumber`, `Email`, `Password`, `RegDate`) VALUES
-(1, 'John', 'Doe', 1414253612, 'johndoe@gmail.com', 'f925916e2754e5e03f75dd58a5733251', '2024-09-05 06:46:36');
+(1, 'John', 'Doe', 1414253612, 'johndoe12@gmail.com', 'f925916e2754e5e03f75dd58a5733251', '2024-09-05 06:46:36');
 
 --
 -- Indexes for dumped tables
